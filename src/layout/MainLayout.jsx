@@ -6,7 +6,7 @@ function MainLayout({ children }) {
   return (
     <>
       <LeftBar />
-      <main className="mx-auto container" style={{width: "calc(100vw - 656px)"}}>{children}</main>
+      <main className="mx-auto w-screen" style={{width: "calc(100vw - 620px)"}}>{children}</main>
       <RightBar />
     </>
   );
